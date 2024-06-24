@@ -1,7 +1,7 @@
 # Title
 
 ![header.png](assets/header.png)
-*Image by [freepik](https://www.freepik.com/free-photo/collage-customer-experience-concept_25053721.htm#fromView=search&page=1&position=7&uuid=f75c616d-0c0a-4544-8617-b8f768f38775).*
+*Image by [freePik](https://www.freepik.com/free-photo/collage-customer-experience-concept_25053721.htm#fromView=search&page=1&position=7&uuid=f75c616d-0c0a-4544-8617-b8f768f38775).*
 
 ## Dataset
 
