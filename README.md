@@ -38,7 +38,7 @@ From the exploratory data analysis, we discovered the following insights from th
 
 * **Churn Rate**: 1 out of 6 customers have churned from the telco service.
 * **Important Numerical Predictors**: Charged amount, total call length, call frequency, SMS frequency, unique contacts called, and customer value are potentially important predictors of customer churn.
-* **Important Categorical Predictors**: Tariff plan, account status, and age bracket (treated as ordinal categories) are identified as significant categorical predictors of churn.
+* **Important Categorical Predictors**: Complained, tariff plan, account status, and age bracket (treated as ordinal categories) are identified as significant categorical predictors of churn.
 * **Multicollinearity**: Multicollinearity is present among the numerical features, suggesting that feature combination or reduction would be a beneficial approach moving forward.
 
 ## Author
