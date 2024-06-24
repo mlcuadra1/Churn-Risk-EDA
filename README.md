@@ -15,15 +15,15 @@ Customer churn analysis presents a unique opportunity to delve into customer beh
 
 ## Objectives
 
-The main objective of this project (so far) is: 
+The main objective of this project is: 
 
-> **To perform EDA on churn data to develop insights about the telco company's reasons for churning and prepare for feature engineering.**
+> **To perform EDA on churn data to develop insights about the telco company's reasons for churning and make a churn prediction model.**
 
 To achieve this objective, I broke it down to 3 smaller objectives:
 
 1. Look at the individual distributions of the numerical features like call fails and subscription length.
-2. Perform bivariate analysis on features vs. churn using violin plots and bar charts.
-4. Find features that have significant differences between churning and non-churning customers and identify them as important features.
+2. Perform bivariate analysis on indepedent variables vs. target feature 'churn' using violin plots and bar charts, and identify which features are best for the model.
+3. Construct a model that predicts if a customer is going to churn.
 
 ## Methodology
 
@@ -34,13 +34,13 @@ To achieve this objective, I broke it down to 3 smaller objectives:
 
 ## Main Insights
 
-From the exploratory data analysis, we found out the following findings from the dataset:
+From the exploratory data analysis, we discovered the following insights from the dataset:
 
-* 1 out of 6 customers have churned from the telco service.
-* Charged amount, total call length, call frequency, SMS frequency, unique contacts called, and customer value are potentially important numerical predictors of churning. 
-* Tariff plan, account status, and age bracket are the potentially important categorical predictors for churning.
-* Multicollinearity is present within the numerical features, so feature combination or reduction would be a beneficial approach moving forward.
+* **Churn Rate**: 1 out of 6 customers have churned from the telco service.
+* **Important Numerical Predictors**: Charged amount, total call length, call frequency, SMS frequency, unique contacts called, and customer value are potentially important predictors of customer churn.
+* **Important Categorical Predictors**: Tariff plan, account status, and age bracket are identified as significant categorical predictors of churn.
+* **Multicollinearity**: Multicollinearity is present among the numerical features, suggesting that feature combination or reduction would be a beneficial approach moving forward.
 
 ## Author
 
-* [Marco Lacsa Cuadra](https://github.com/mlcuadra1)
+* [**Marco Lacsa Cuadra**](https://github.com/mlcuadra1)
